@@ -1,4 +1,4 @@
-# Few-shot image classification of eye diseases using Prototypical Networks: An experimental use of non-medical images
+# Smartphone image classification of eye diseases using Prototypical Networks: An experimental use of non-medical images
 This repository contains data, code and results from carrying out the above titled research.
 
 ## Introduction
