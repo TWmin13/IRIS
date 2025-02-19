@@ -38,47 +38,72 @@
 - **Specificity**: 95.7%
 - **Processing Time**: ~2-3 seconds on modern smartphones
 
-### Model Implementation Details
+# 🧠 Model Implementation Details
 
-#### Data Processing
-- **Image Preprocessing**:
-  - Resize to 224x224 pixels
-  - Normalization (0-1 range)
-  - Color space conversion to RGB
-  - Contrast enhancement using CLAHE
-  - Data augmentation (rotation, flipping, brightness adjustment)
+## 👩‍🎓 Supported Conditions
+- ⚕️ **Diabetic Retinopathy**
+- 👀 **Glaucoma**
+- 🎨 **Age-related Macular Degeneration (AMD)**
+- 👩‍⚕️ **Normal (Healthy Eye)**
 
-#### Model Architecture Details
-- **Backbone**: EfficientNet-B3
-- **Layers**:
-  - Input Layer (224x224x3)
-  - 5 Convolutional Blocks with:
-    - Depth-wise separable convolutions
-    - Batch normalization
-    - ReLU activation
-    - Squeeze-and-excitation modules
-  - Global Average Pooling
-  - Dropout (0.3)
-  - Dense Layer (4 units, Softmax)
+## ⚖️ Model Performance
+- **Accuracy**: 94.5% on validation set
+- **Sensitivity**: 92.3%
+- **Specificity**: 95.7%
+- **Processing Time**: ~2-3 seconds on modern smartphones
 
-#### Training Process
+---
+
+## 📈 Data Processing
+### 🌀 Image Preprocessing
+- Resize to **224x224** pixels
+- Normalization (**0-1** range)
+- Color space conversion to **RGB**
+- Contrast enhancement using **CLAHE**
+- Data augmentation:
+  - Rotation
+  - Flipping
+  - Brightness adjustment
+
+---
+
+## 💡 Model Architecture Details
+### 🛠️ Backbone: **EfficientNet-B3**
+#### 🔄 Layers:
+- **Input Layer** (224x224x3)
+- **5 Convolutional Blocks** with:
+  - Depth-wise separable convolutions
+  - Batch normalization
+  - ReLU activation
+  - Squeeze-and-excitation modules
+- **Global Average Pooling**
+- **Dropout** (0.3)
+- **Dense Layer** (4 units, Softmax)
+
+---
+
+## 📚 Training Process
 - **Dataset**: 50,000 labeled retinal images
 - **Training Strategy**:
-  - Transfer learning from ImageNet weights
-  - Progressive learning rates (1e-3 to 1e-5)
-  - Batch size: 32
-  - Epochs: 100 with early stopping
-  - Loss function: Categorical cross-entropy
-  - Optimizer: Adam with weight decay
+  - Transfer learning from **ImageNet weights**
+  - Progressive learning rates (**1e-3 to 1e-5**)
+  - Batch size: **32**
+  - Epochs: **100** with early stopping
+  - Loss function: **Categorical cross-entropy**
+  - Optimizer: **Adam with weight decay**
 
-#### Model Optimization
-- **Quantization**:
-  - Post-training integer quantization
-  - Reduced model size from 46MB to 15MB
-  - Minimal accuracy loss (~0.5%)
-- **Pruning**:
-  - Removed 30% of less important connections
-  - Improved inference speed by 25%
+---
+
+## 🎉 Model Optimization
+### 📅 Quantization
+- Post-training **integer quantization**
+- Reduced model size from **46MB** to **15MB**
+- Minimal accuracy loss (~0.5%)
+
+### 🔄 Pruning
+- Removed **30% of less important connections**
+- Improved **inference speed by 25%**
+
 
 ## 🏗️ Project Structure
 
