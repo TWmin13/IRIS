@@ -19,7 +19,7 @@
 
 ## 🧠 Model Implementation Details
 
-## 👩‍🎓 Supported Conditions
+### 👩‍🎓 Supported Conditions
 - ⚕️ **Diabetic Retinopathy**
 - 👀 **Glaucoma**
 - 🎨 **Age-related Macular Degeneration (AMD)**
@@ -27,7 +27,6 @@
 
 ---
 
-## 📈 Data Processing
 ### 🌀 Image Preprocessing
 - Resize to **224x224** pixels
 - Normalization (**0-1** range)
@@ -55,7 +54,7 @@
 
 ---
 
-## 📚 Training Process
+### 📚 Training Process
 - **Dataset**: 50,000 labeled retinal images
 - **Training Strategy**:
   - Transfer learning from **ImageNet weights**
