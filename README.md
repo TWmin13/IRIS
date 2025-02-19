@@ -1,4 +1,4 @@
-```markdown
+
 # 👁️ IRIS - Intelligent Retinal Imaging System 👁️
 
 **IRIS** is a Flutter-based application designed to **analyze eye images** and detect possible eye conditions using **AI-powered diagnostics**. Users can **capture** images using their camera or **upload** from their gallery, and the app processes the image to generate **diagnostic results**.
