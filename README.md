@@ -17,27 +17,6 @@
 |------------|-------------|-----------------|---------------|
 | ![Home](screenshots/home.png) | ![Camera](screenshots/camera.png) | ![Processing](screenshots/processing.png) | ![Results](screenshots/results.png) |
 
-## 🧠 AI Model Details
-
-### Model Architecture
-- **Type**: Convolutional Neural Network (CNN)
-- **Framework**: TensorFlow Lite
-- **Input Size**: 224x224x3 RGB images
-- **Output**: Multi-class classification for common eye conditions
-- **Model Size**: ~15MB (optimized for mobile devices)
-
-### Supported Conditions
-- Diabetic Retinopathy
-- Glaucoma
-- Age-related Macular Degeneration (AMD)
-- Normal (Healthy Eye)
-
-### Model Performance
-- **Accuracy**: 94.5% on validation set
-- **Sensitivity**: 92.3%
-- **Specificity**: 95.7%
-- **Processing Time**: ~2-3 seconds on modern smartphones
-
 # 🧠 Model Implementation Details
 
 ## 👩‍🎓 Supported Conditions
@@ -45,12 +24,6 @@
 - 👀 **Glaucoma**
 - 🎨 **Age-related Macular Degeneration (AMD)**
 - 👩‍⚕️ **Normal (Healthy Eye)**
-
-## ⚖️ Model Performance
-- **Accuracy**: 94.5% on validation set
-- **Sensitivity**: 92.3%
-- **Specificity**: 95.7%
-- **Processing Time**: ~2-3 seconds on modern smartphones
 
 ---
 
