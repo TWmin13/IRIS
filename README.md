@@ -101,18 +101,19 @@
 
 ### Installation
 1. Clone the repository:
-   ```bash
-   git clone https://github.com/aywhoosh/IRIS-Ocular-Diagnostics.git
-   cd IRIS-Ocular-Diagnostics
-   ```
+   ``` bash
+   git clone https://github.com/aywhoosh/IRIS-Ocular-Diagnostics.git
+   cd IRIS-Ocular-Diagnostics
+   
+
 2. Install dependencies:
-   ```bash
-   flutter pub get
-   ```
-3. Run the app:
-   ```bash
-   flutter run
-   ```
+   ```bash
+   flutter pub get
+   
+
+3. Run the app!
+   ``` bash
+   flutter run
 
 ## 🛠️ Dependencies Used
 ```plaintext
