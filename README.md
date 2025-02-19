@@ -17,7 +17,7 @@
 |------------|-------------|-----------------|---------------|
 | ![Home](screenshots/home.png) | ![Camera](screenshots/camera.png) | ![Processing](screenshots/processing.png) | ![Results](screenshots/results.png) |
 
-# 🧠 Model Implementation Details
+## 🧠 Model Implementation Details
 
 ## 👩‍🎓 Supported Conditions
 - ⚕️ **Diabetic Retinopathy**
