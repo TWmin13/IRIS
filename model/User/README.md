@@ -1,6 +1,6 @@
 # Ocular Disease Detection using Deep Learning
 ## Overview
-The Ocular Disease Detection project aims to automate the diagnosis of various eye diseases using deep learning techniques. The project utilizes the ODIR dataset, which includes fundus images of patients with Diabetes, Glaucoma, Cataract, Related Macular Degeneration, Myopia, Hypertensive Retinopathy, and other eye conditions. The objective is to build a robust and accurate system for identifying ocular diseases from fundus images.
+The Ocular Disease Detection aims to automate the diagnosis of various eye diseases using deep learning techniques. It utilizes the ODIR dataset, which includes fundus images of patients with Diabetes, Glaucoma, Cataract, Related Macular Degeneration, Myopia, Hypertensive Retinopathy, and other eye conditions. The objective is to build a robust and accurate system for identifying ocular diseases from fundus images.
 
 ## Dataset
 The ODIR dataset contains 6000 fundus images, each categorized into one of the mentioned eye disease classes. However, the dataset might suffer from class imbalances, which can affect the performance of the models.
@@ -26,7 +26,7 @@ The models are trained on the preprocessed images using LBP and validated using 
 <img src='training.png'>
 
 ## Future Directions
-The Ocular Disease Detection project could be extended in the following ways:
+The Ocular Disease Detection could be extended in the following ways:
 
 1. Exploring other deep learning architectures specifically designed for medical image analysis, such as U-Net or DenseNet, and comparing their performance with the existing models.
 2. Utilizing data augmentation techniques to address class imbalances and further enhance the model's ability to recognize rare eye conditions.
