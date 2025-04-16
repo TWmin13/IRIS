@@ -1,0 +1,2 @@
+C:/Users/Ayush/Desktop/IRIS 2/IRIS/app/android/app/.cxx/Debug/1u2h4p6j/x86/CMakeFiles/edit_cache.dir
+C:/Users/Ayush/Desktop/IRIS 2/IRIS/app/android/app/.cxx/Debug/1u2h4p6j/x86/CMakeFiles/rebuild_cache.dir
