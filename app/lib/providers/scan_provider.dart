@@ -125,14 +125,13 @@ class ScanProvider with ChangeNotifier {
       // Create a JobStatus object to match old interface
       // Check if scan_results exists to determine if processing is complete
       final hasResults = scanDetails['scan_results'] != null &&
-          (scanDetails['scan_results'] as List).isNotEmpty;
-
-      // Set status based on whether results exist
+          (scanDetails['scan_results'] as List)
+              .isNotEmpty; // Set status based on whether results exist
       final status =
-          hasResults ? 'completed' : (scanDetails['status'] ?? 'processing');
+          hasResults ? 'processed' : (scanDetails['status'] ?? 'processing');
 
       // Hard-code progress values based on status to avoid using non-existent 'progress' column
-      final progress = status == 'completed' ? 100 : 70;
+      final progress = status == 'processed' ? 100 : 70;
 
       final jobStatus = JobStatus(
         status: _mapStatusString(status),
@@ -181,6 +180,7 @@ class ScanProvider with ChangeNotifier {
   // Helper method to map status string to JobProcessingStatus enum
   JobProcessingStatus _mapStatusString(String status) {
     switch (status.toLowerCase()) {
+      case 'processed':
       case 'completed':
         return JobProcessingStatus.completed;
       case 'failed':
